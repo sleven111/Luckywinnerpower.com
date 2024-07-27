@@ -1,118 +1,67 @@
-HTTrack3.49-2+htsswf+htsjava launched on Sat, 27 Jul 2024 03:50:18 at https://www.luckywinnerspower.com +www.luckywinnerspower.com/+*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*[name].messenger/*
-(winhttrack -WC2%Pnxs2u1%s%uN0%I0p3DaK0H0%kf2o0A25000%f#f -F "Mozilla/4.05 [fr] (Win98; I)" -%F  -%l "en, *" https://www.luckywinnerspower.com -O1 "C:\My Web Sites\Lucky2\Lucky2" +www.luckywinnerspower.com/+*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*[name].messenger/* )
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 27 Jul 2024 04:45:24 at https://luckywinnerspower.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://luckywinnerspower.com -O1 "C:\My Web Sites\Lucky2\Lucky2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-03:53:19	Warning: 	File not parsed, looks like binary: https://www.luckywinnerspower.com/play_juwa.ipa
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721603660.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721603709.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721603769.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721603826.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721603865.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721603932.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721603971.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721604024.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721604073.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721604126.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721604161.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721604200.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721604240.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721604305.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721604475.png (from https://www.luckywinnerspower.com/)
-03:55:20	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/sliders/game_1721604511.png (from https://www.luckywinnerspower.com/)
-03:55:20	Warning: 	File not parsed, looks like binary: https://www.luckywinnerspower.com/fonts/LineIcons.woff2
-03:55:29	Warning: 	File not parsed, looks like binary: https://www.luckywinnerspower.com/fonts/materialdesignicons-webfont.woff2?v=5.9.55
-03:55:40	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/_5YEBEqdrZg -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/_5YEBEqdrZg.70.delayed
-03:55:40	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/_5YEBEqdrZg
-03:55:47	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/embed/_5YEBEqdrZg
-03:55:48	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/WcjGJAXH2Rs -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/WcjGJAXH2Rs.71.delayed
-03:55:48	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/WcjGJAXH2Rs
-03:55:50	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/nYF0pmpj3Ws -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/nYF0pmpj3Ws.72.delayed
-03:55:50	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/nYF0pmpj3Ws
-03:55:53	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/embed/WcjGJAXH2Rs
-03:55:53	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/embed/nYF0pmpj3Ws
-03:55:53	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/txPx72FSrj4 -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/txPx72FSrj4.73.delayed
-03:55:53	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/txPx72FSrj4
-03:55:58	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/FZEbS5P0H2U -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/FZEbS5P0H2U.74.delayed
-03:55:58	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/FZEbS5P0H2U
-03:56:04	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/embed/txPx72FSrj4
-03:56:04	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/ZKculZkAk44 -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/ZKculZkAk44.75.delayed
-03:56:04	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/ZKculZkAk44
-03:56:08	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/embed/FZEbS5P0H2U
-03:56:09	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/embed/ZKculZkAk44
-03:56:09	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/NDN-p0073Tw -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/NDN-p0073Tw.76.delayed
-03:56:09	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/NDN-p0073Tw
-03:56:13	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/PlGS1Pq317c -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/PlGS1Pq317c.77.delayed
-03:56:13	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/PlGS1Pq317c
-03:56:18	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/embed/NDN-p0073Tw
-03:56:19	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/embed/PlGS1Pq317c
-03:56:19	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/I64QnTdJzfg -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/I64QnTdJzfg.78.delayed
-03:56:19	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/I64QnTdJzfg
-03:56:24	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/b21Z4Cs3kYw -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/b21Z4Cs3kYw.79.delayed
-03:56:24	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/b21Z4Cs3kYw
-03:56:27	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/embed/I64QnTdJzfg
-03:56:27	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/embed/b21Z4Cs3kYw
-03:56:27	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/G_QpaFPf3vg -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/G_QpaFPf3vg.7a.delayed
-03:56:27	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/G_QpaFPf3vg
-03:56:33	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/TXFn1zCb6Jg -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/TXFn1zCb6Jg.7b.delayed
-03:56:33	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/TXFn1zCb6Jg
-03:56:37	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/embed/G_QpaFPf3vg
-03:56:37	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/embed/TXFn1zCb6Jg
-03:56:38	Warning: 	unexpected incomplete type with 200 code at https://www.youtube.com/embed/SBScWaGNcTE
-03:56:38	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/SBScWaGNcTE -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/SBScWaGNcTE.7c.delayed
-03:56:38	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/SBScWaGNcTE
-03:56:38	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/TXFn1zCb6Jg -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/TXFn1zCb6Jg.7b.delayed
-03:56:38	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/TXFn1zCb6Jg
-03:56:38	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://www.youtube.com/embed/TXFn1zCb6Jg -> C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/TXFn1zCb6Jg.7b.delayed
-03:56:38	Warning: 	link is probably looping, type unknown, aborting: https://www.youtube.com/embed/TXFn1zCb6Jg
-03:56:55	Warning: 	unexpected incomplete type with 200 code at https://cash.app/$dkpdk
-03:57:28	Error: 	"Not Found" (404) at link https://www.luckywinnerspower.com/public/images/promotions/game_1721830953.jpg (from https://www.luckywinnerspower.com/promotions)
-03:57:29	Warning: 	Note: due to https://www.youtube.com remote robots.txt rules, links beginning with these path will be forbidden: /api/, /comment, /feeds/videos.xml, /get_video, /get_video_info, /get_midroll_info, /live_chat, /login, /qr, /results, /signup, /t/terms, /timedtext_video, /verify_age, /watch_ajax, /watch_fragments_ajax, /watch_popup, /watch_queue_ajax, /youtubei/ (see in the options to disable this)
-03:57:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 86949): https://www.youtube.com/embed/_5YEBEqdrZg
-03:57:29	Warning: 	Warning: store text/html without scan: C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/_5YEBEqdrZg.70.delayed
-03:57:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 87428): https://www.youtube.com/embed/WcjGJAXH2Rs
-03:57:29	Warning: 	Warning: store text/html without scan: C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/WcjGJAXH2Rs.71.delayed
-03:57:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 86904): https://www.youtube.com/embed/nYF0pmpj3Ws
-03:57:29	Warning: 	Warning: store text/html without scan: C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/nYF0pmpj3Ws.72.delayed
-03:57:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 80734): https://www.youtube.com/embed/txPx72FSrj4
-03:57:29	Warning: 	Warning: store text/html without scan: C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/txPx72FSrj4.73.delayed
-03:57:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 88351): https://www.youtube.com/embed/FZEbS5P0H2U
-03:57:29	Warning: 	Warning: store text/html without scan: C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/FZEbS5P0H2U.74.delayed
-03:57:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 87775): https://www.youtube.com/embed/ZKculZkAk44
-03:57:29	Warning: 	Warning: store text/html without scan: C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/ZKculZkAk44.75.delayed
-03:57:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 88213): https://www.youtube.com/embed/NDN-p0073Tw
-03:57:29	Warning: 	Warning: store text/html without scan: C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/NDN-p0073Tw.76.delayed
-03:57:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 88150): https://www.youtube.com/embed/PlGS1Pq317c
-03:57:29	Warning: 	Warning: store text/html without scan: C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/PlGS1Pq317c.77.delayed
-03:57:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 88033): https://www.youtube.com/embed/I64QnTdJzfg
-03:57:29	Warning: 	Warning: store text/html without scan: C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/I64QnTdJzfg.78.delayed
-03:57:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 87266): https://www.youtube.com/embed/b21Z4Cs3kYw
-03:57:29	Warning: 	Warning: store text/html without scan: C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/b21Z4Cs3kYw.79.delayed
-03:57:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 87418): https://www.youtube.com/embed/G_QpaFPf3vg
-03:57:29	Warning: 	Warning: store text/html without scan: C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/G_QpaFPf3vg.7a.delayed
-03:57:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 87064): https://www.youtube.com/embed/TXFn1zCb6Jg
-03:57:29	Warning: 	Warning: store text/html without scan: C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/TXFn1zCb6Jg.7b.delayed
-03:57:29	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 80384): https://www.youtube.com/embed/SBScWaGNcTE
-03:57:29	Warning: 	Warning: store text/html without scan: C:/My Web Sites/Lucky2/Lucky2/www.youtube.com/embed/SBScWaGNcTE.7c.delayed
-03:57:29	Warning: 	File not parsed, looks like binary: https://cash.app/$dkpdk
-03:57:39	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 36112): https://cash-f.squarecdn.com/static/fonts/cash-market/v2/CashMarket-BoldRounded.woff2
-03:58:01	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://cash-f.squarecdn.com/static/fonts/cash-market/v2/CashMarket-BoldRounded.woff2 -> C:/My Web Sites/Lucky2/Lucky2/cash-f.squarecdn.com/static/fonts/cash-market/v2/CashMarket-BoldRounded.89.delayed
-03:58:01	Warning: 	link is probably looping, type unknown, aborting: https://cash-f.squarecdn.com/static/fonts/cash-market/v2/CashMarket-BoldRounded.woff2
-03:58:02	Warning: 	Found for https://m.me/robots.txt
-03:58:02	Warning: 	File has moved from https://m.me/robots.txt to https://www.messenger.com/
-03:58:02	Warning: 	Found for https://m.me/355682320958968
-03:58:02	Warning: 	File has moved from https://m.me/355682320958968 to https://www.facebook.com/msg/355682320958968/?show_interstitial=0&mdotme_uri=https%3A%2F%2Fm.me%2F355682320958968&source_id=1441792&handler=m.me&referer=http%3A%2F%2Fwww.luckywinnerspower.com%2Fcashapp-details%2F1
-03:58:10	Error: 	"Forbidden" (403) at link https://cash-f.squarecdn.com/static/fonts/cashmarket/cash-market-rounded-regular-italic.woff (from https://cash.app/$naeswk)
-03:58:12	Warning: 	Moved Permanently for https://js.squareup.com/robots.txt
-03:58:12	Warning: 	File has moved from https://js.squareup.com/robots.txt to https://squareup.com/robots.txt
-03:58:12	Warning: 	Moved Permanently for https://js.squareup.com/v2/paymentform
-03:58:12	Warning: 	File has moved from https://js.squareup.com/v2/paymentform to https://squareup.com/v2/paymentform
-03:58:20	Error: 	Duplicate entry in hts_wait_delayed() cancelled: https://squareup.com/v2/paymentform -> C:/My Web Sites/Lucky2/Lucky2/squareup.com/v2/paymentform.a7.delayed
-03:58:20	Warning: 	link is probably looping, type unknown, aborting: https://squareup.com/v2/paymentform
-03:58:21	Error: 	"Not Found" (404) at link https://squareup.com/v2/paymentform (from https://js.squareup.com/v2/paymentform)
+04:46:14	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/favicon_1721914971.jpg (from https://luckywinnerspower.com/)
+04:46:14	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/css/bootstrap.min.css (from https://luckywinnerspower.com/)
+04:46:14	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/css/lineicons.css (from https://luckywinnerspower.com/)
+04:46:14	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/css/materialdesignicons.min.css (from https://luckywinnerspower.com/)
+04:46:15	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/css/main.css (from https://luckywinnerspower.com/)
+04:46:15	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/Playjuwa.apk (from https://luckywinnerspower.com/)
+04:46:15	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/google.jpg (from https://luckywinnerspower.com/)
+04:46:15	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/logo_1721914971.jpg (from https://luckywinnerspower.com/)
+04:46:15	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/play_juwa.ipa (from https://luckywinnerspower.com/)
+04:46:15	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/app_store.jpg (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/images/popups/1722015017_1000025424.jpg (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/images/popups/1722015039_1000025426.jpg (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/images/popups/1722015053_1000025410.jpg (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721603660.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721603709.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721603769.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721603826.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721603865.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721603932.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721603971.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721604024.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721604073.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721604126.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721604161.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721604200.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721604240.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721604305.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721604475.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/sliders/game_1721604511.png (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/js/jquery-3.5.1.min.js (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/js/bootstrap.bundle.min.js (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/js/moment.min.js (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/js/polyfill.js (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/js/jquery.validate.min.js (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/js/additional-methods.min.js (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/js/main.js (from https://luckywinnerspower.com/)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1701850835.jpg (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1701975381.jpeg (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1702908201.jpeg (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1702908328.jpeg (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1702908548.jpeg (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1702908630.jpeg (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1702908757.jpeg (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1702908878.jpeg (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1702908959.png (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1702909042.jpeg (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1702909219.jpeg (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1702909357.jpg (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1702909456.jpeg (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1702909573.png (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1708907813.jpeg (from https://luckywinnerspower.com/link2play)
+04:46:41	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/uploads/games/game_1721881922.jpg (from https://luckywinnerspower.com/link2play)
+04:46:45	Error: 	"Not Found" (404) at link https://luckywinnerspower.com/public/images/promotions/game_1721830953.jpg (from https://luckywinnerspower.com/promotions)
+04:46:45	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/images/popups/1722015079_1000025412.jpg (from https://luckywinnerspower.com/cashapp-details/5)
+04:46:45	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/images/cash.webp (from https://luckywinnerspower.com/cashapp-details/5)
+04:46:45	Error: 	"Forbidden" (403) at link https://luckywinnerspower.com/images/mess.png (from https://luckywinnerspower.com/cashapp-details/5)
 
-HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 4 seconds : 179 links scanned, 147 files written (85426052 bytes overall), 145 files updated [82526153 bytes received at 170508 bytes/sec], 4284829 bytes transferred using HTTP compression in 55 files, ratio 27%, 2.3 requests per connection
-(36 errors, 71 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 21 seconds : 108 links scanned, 51 files written (34988726 bytes overall) [33193838 bytes received at 409800 bytes/sec], 2423905 bytes transferred using HTTP compression in 24 files, ratio 19%, 7.2 requests per connection
+(56 errors, 0 warnings, 0 messages)
