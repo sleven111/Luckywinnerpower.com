@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cumbo Tech Service Payment</title>
+  <!-- Include Square Payment SDK -->
+  <style media="screen">
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 80%; /* Adjust the width as needed */
+  }
+
+  #loader {
+    display: none;
+  }
+
+  #cash-app-pay {
+    display: none;
+  }
+
+  #token-display {
+    display: none;
+    margin-top: 10px;
+  }
+  </style>
+  <script src="../../js.squareup.com/v2/paymentform.9c.delayed"></script>
+  <script src="../../web.squarecdn.com/v1/square.js"></script>
+  <link href="../../cdn.jsdelivr.net/npm/bootstrap%405.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script>
+  var base_url='index.html';
+</script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <form id="payment-form">
+          <div class="mb-4" id="amount-input">
+            <label for="amount" class="form-label">Amount</label>
+            <input type="number" class="form-control" id="amount"  placeholder="Enter Paying Amount" aria-describedby="amountHelp">
+          </div>
+             <div class="mb-4" id="description-input">
+            <label for="amount" class="form-label">Description</label>
+            <textarea type="text" class="form-control description"  placeholder="Enter your username" id="description" aria-describedby="amountHelp"></textarea>
+          </div>
+          <div><p id="display_error1" style="color:red;"></p></div>
+          <div><p id="display_error" style="color:red;"></p></div>
+          <button type="submit" class="btn btn-primary" id="payment-button">Pay with Cash App</button>
+          <!-- Loader -->
+          <div id="loader" class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </form>
+        <!-- Container for Cash App Pay button -->
+        <div id="cash-app-pay"></div>
+        <!-- Payment Token display area -->
+        <div id="token-display"></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+  async function get_data(amount,description,token){
+    var res =  await fetch(base_url +'/payment', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        amount: amount,
+        description: description,
+        token: token
+      })
+    });
+    var data = await res.json();
+    if(data.res.payment.status === 'COMPLETED') {
+      Swal.fire({
+        title: " Successful !!",
+        text: "The Payment Has been received !!",
+        icon: "success"
+      }).then((result) => {
+        console.log(result);
+        if (result.value) {
+          window.location.href = base_url;
+        }
+      });
+    }
+
+
+  }
+
+
+  async function initializePayment(amount,description) {
+    try {
+      document.getElementById('loader').style.display = 'block';
+      document.getElementById('payment-button').style.display = 'none';
+      document.getElementById('amount-input').style.display = 'none';
+      document.getElementById('description-input').style.display = 'none';
+      document.getElementById('display_error').style.display = 'none';
+      document.getElementById('display_error1').style.display = 'none';
+
+      const payments = Square.payments('sq0idp-iQ47nehhYEwLU9yz13NbMA', 'LACF7CBDVXDXV');
+      const paymentRequest = payments.paymentRequest({
+        countryCode: 'US',
+        currencyCode: 'USD',
+        total: {
+          amount: amount.toFixed(2),
+          label: 'Total',
+        },
+      });
+      const options = {
+        redirectURL: window.location.href,
+        referenceId: 'my-distinct-reference-id',
+      };
+      const cashAppPay = await payments.cashAppPay(paymentRequest, options);
+      cashAppPay.addEventListener('ontokenization', (event) => {
+        const { tokenResult } = event.detail;
+        if (tokenResult.status === 'OK') {
+          console.log(`Payment token is ${tokenResult.token}`);
+          document.getElementById('token-display').innerHTML = `Payment token: ${tokenResult.token}`;
+          document.getElementById('token-display').style.display = 'block';
+          document.getElementById('payment-form').appendChild(document.getElementById('token-display'));
+          get_data(amount,description,tokenResult.token);
+        } else {
+          console.error(tokenResult);
+        }
+      });
+      const buttonOptions = {
+        shape: 'semiround',
+        width: 'full',
+      };
+      document.getElementById('cash-app-pay').style.display = 'block';
+      await cashAppPay.attach('#cash-app-pay', buttonOptions);
+      document.getElementById('loader').style.display = 'none';
+    } catch (error) {
+      console.error('Error initializing payment:', error);
+    }
+  }
+
+  document.getElementById('payment-form').addEventListener('submit', (event) => {
+    event.preventDefault();
+    const amount = parseFloat(document.getElementById('amount').value);
+    const description = document.getElementById('description').value;
+    if (isNaN(amount) || amount <= 0) {
+          document.getElementById("display_error1").innerHTML='Amount Required';
+   
+      return;
+    } 
+    if (description=='' || description=='undefined') {
+           document.getElementById('display_error1').style.display = 'none';
+       document.getElementById("display_error").innerHTML='Description Required';
+      return;
+    }
+    initializePayment(amount,description);
+  });
+
+  </script>
+
+  <script src="../../cdn.jsdelivr.net/npm/sweetalert2%4011.9f.delayed"></script>
+</body>
+</html>
